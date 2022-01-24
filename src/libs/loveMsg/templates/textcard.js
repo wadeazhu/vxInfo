@@ -35,8 +35,8 @@ export const textCardTemplate = (data) => {
 
 
   // 拼接内容
-  let description = `${city} | ${today} | ${week}
-<b>今日天气状况：</b>
+  let description = `<b>今日天气状况：</b>
+${city} | ${today} | ${week}
 天气：${wea}
 ${win}：${win_speed_day}
 温度：${tem2}℃ ~ ${tem1}℃

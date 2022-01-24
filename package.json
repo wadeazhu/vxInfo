@@ -1,0 +1,19 @@
+{
+  "name": "wxinfo",
+  "version": "1.0.0",
+  "main": "test01.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "type": "module",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "axios": "^0.25.0",
+    "dayjs": "^1.10.7",
+    "dotenv": "^14.2.0"
+  }
+}

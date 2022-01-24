@@ -36,7 +36,7 @@ export const textCardTemplate = (data) => {
 
   // 拼接内容
   let description = `${city} | ${today} | ${week}
-今日天气状况：
+<b>今日天气状况：</b>
 天气：${wea}
 ${win}：${win_speed_day}
 温度：${tem2}℃ ~ ${tem1}℃
@@ -70,7 +70,7 @@ ${win}：${win_speed_day}
   return {
     msgtype: 'textcard',
     textcard: {
-      title: "天气预报~",
+      title: "新的一天开始啦~",
       description,
       url: 'https://api.vvhan.com/api/60s', // 60s看世界
     },

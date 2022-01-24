@@ -28,7 +28,7 @@ jobs:
 
       # Runs a set of commands using the runners shell
       - name: 运行脚本
-        run: npm run start:morning
+        run: npm start
         env:
           CORP_ID: ${{secrets.CORP_ID}}
           SECRET: ${{secrets.SECRET}}

@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "main": "test01.js",
   "scripts": {
-    "start": "node src/index.js",
+    "start:morning": "node src/morning.js",
+    "start:news": "node src/news.js",
+    "start:water": "node src/water.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "type": "module",

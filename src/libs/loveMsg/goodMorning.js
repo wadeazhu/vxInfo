@@ -51,7 +51,6 @@ export const weatherInfo = async() => {
   const weather = await API.getWeather('武汉')
   if (weather) {
     const template = textCardTemplate({ ...weather })
-    console.log('weatherInfo', template)
 
     // 发送消息
     await wxNotify(template)

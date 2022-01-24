@@ -1,9 +1,9 @@
 import dotenv from "dotenv"
-import {weatherInfo} from "./libs/loveMsg/goodMorning.js";
+import {wxNotify} from "./libs/wxNotify/index.js";
 
 dotenv.config()
 
-weatherInfo({
+wxNotify({
     text: {
         content: "喝水时间到啦~"
     }

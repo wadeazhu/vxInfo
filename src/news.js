@@ -20,7 +20,7 @@ API.getTopNews().then(({newList}) => {
             wxNotify({
                 "msgtype" : "news",
                 news: {articles: list}
-            })
+            }).then(() => {})
             list = []
             break
         }else {

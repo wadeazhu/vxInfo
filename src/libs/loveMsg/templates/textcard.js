@@ -27,8 +27,6 @@ export const textCardTemplate = (data) => {
     alarm,
     week,
     oneWord,
-    newList,
-    newTop
   } = data
 
   // 今日、恋爱天数
@@ -66,13 +64,8 @@ ${win}：${win_speed_day}
 
   if (oneWord) {
     description += `
-『 ${oneWord.hitokoto} 』\n`
+『 ${oneWord.hitokoto} 』`
   }
-  // console.log(newList)
-  newList.forEach( item => {
-    description+=item.Title+'\n'
-  })
-
 
 
   return {

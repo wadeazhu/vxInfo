@@ -8,7 +8,7 @@ dotenv.config()
 API.getTopNews().then(({newList}) => {
     return newList.map(item => (
         {
-            title: new Date(),
+            title: item.Title,
             picurl: item.Image.url,
             url: item.Url
         }

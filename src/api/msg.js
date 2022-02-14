@@ -3,7 +3,7 @@ import { getTian } from '../utils/http.js'
 
 const LoveMsgURL = {
     // 天气
-    weather: 'https://v0.yiketianqi.com/api?unescape=1&version=v61&appid=43656176&appsecret=I42og6Lm',
+    weather: 'https://v0.yiketianqi.com/api?unescape=1&version=v61&appid=28768578&appsecret=BT2OBowj',
     topNews: 'https://www.toutiao.com/hot-event/hot-board/'
 }
 
